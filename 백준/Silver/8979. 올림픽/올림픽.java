@@ -42,7 +42,7 @@ public class Main {
 			if(rank[i].country == target) ans = i; 
 		}
 		
-		for (int i = ans; i >= 0 ; i--) {
+		for (int i = ans; i > 0 ; i--) {
 			if(
 					rank[i].gold == rank[i-1].gold &&
 					rank[i].silver == rank[i-1].silver &&
